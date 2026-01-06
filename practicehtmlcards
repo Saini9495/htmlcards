@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Two Cards</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            display: flex;
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 300px;
+            padding: 30px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .card h2 {
+            margin-top: 0;
+        }
+        .card p {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h2>Card One</h2>
+            <p>This is the first card. It contains some sample text to illustrate the card layout.</p>
+        </div>
+        <div class="card">
+            <h2>Card Two</h2>
+            <p>This is the second card. It also contains sample text to show how cards can be displayed side by side.</p>
+        </div>
+    </div>
+
+</body>
+</html>
